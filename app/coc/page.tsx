@@ -415,6 +415,15 @@ export default function CoCPage() {
                 Contact the Team
               </Link>
             </div>
+
+            <div className="mt-16 pt-10 border-t border-charcoal/8">
+              <p className="text-stone text-xs leading-relaxed">
+                This Code of Conduct is part of the bits&bytes™ Network. For the full governance framework and additional policies, visit:{" "}
+                <a href="https://gobitsnbytes.org/coc" target="_blank" rel="noopener noreferrer" className="text-terracotta font-semibold hover:underline">
+                  gobitsnbytes.org/coc
+                </a>
+              </p>
+            </div>
           </motion.div>
         </div>
       </section>

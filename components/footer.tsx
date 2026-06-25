@@ -105,19 +105,31 @@ export function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/5">
-        <div className="shell py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-stone/32 font-mono">
+        <div className="shell py-4">
+          <p className="text-xs text-stone/32 font-mono mb-3 sm:mb-0">
             © 2026 Bits&Bytes Kolkata · gobitsnbytes.org
           </p>
-          <div className="flex items-center gap-5">
-            <Link href="/coc" className="text-xs text-stone/28 hover:text-stone/60 transition-colors">
+          <div className="flex flex-wrap items-center gap-3 sm:gap-5 text-xs">
+            <Link href="/faq" className="text-stone/28 hover:text-stone/60 transition-colors">
+              FAQ
+            </Link>
+            <Link href="/coc" className="text-stone/28 hover:text-stone/60 transition-colors">
               Code of Conduct
+            </Link>
+            <Link href="/terms" className="text-stone/28 hover:text-stone/60 transition-colors">
+              Terms
+            </Link>
+            <Link href="/privacy" className="text-stone/28 hover:text-stone/60 transition-colors">
+              Privacy
+            </Link>
+            <Link href="/ip" className="text-stone/28 hover:text-stone/60 transition-colors">
+              IP Policy
             </Link>
             <a
               href="https://github.com/gobitsnbytes-kol"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-stone/28 hover:text-stone/60 transition-colors"
+              className="text-stone/28 hover:text-stone/60 transition-colors"
             >
               GitHub
             </a>
