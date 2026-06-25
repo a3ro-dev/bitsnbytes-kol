@@ -113,9 +113,9 @@ export function Footer() {
             <a href="https://gobitsnbytes.org/faq" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               FAQ
             </a>
-            <Link href="/coc" className="text-stone/28 hover:text-stone/60 transition-colors">
+            <a href="https://gobitsnbytes.org/coc" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               Code of Conduct
-            </Link>
+            </a>
             <a href="https://gobitsnbytes.org/terms" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               Terms
             </a>
