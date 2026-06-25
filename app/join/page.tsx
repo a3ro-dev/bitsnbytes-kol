@@ -27,10 +27,10 @@ function FadeIn({ children, className = "" }: { children: React.ReactNode; class
 }
 
 const COMMUNITY_PERKS = [
-  "Access to every hackathon, build night, and workshop we run",
-  "Active Discord with 1500+ builders across India",
-  "Peer collaboration and async project feedback",
-  "First to know about Bits&Bytes events nationally",
+  "Access to every hackathon, build night, and workshop in Kolkata and nationally",
+  "Active Discord with 1400+ builders across India",
+  "Peer collaboration, code reviews, and project feedback",
+  "Mentorship from engineers in production at real companies",
 ];
 
 const TEAM_PERKS = [

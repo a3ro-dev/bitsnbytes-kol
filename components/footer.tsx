@@ -13,7 +13,7 @@ const NAV = [
 const SOCIALS = [
   { href: "https://github.com/gobitsnbytes-kol",            label: "GitHub",    icon: Github    },
   { href: "https://www.linkedin.com/company/gobitsbytes",   label: "LinkedIn",  icon: Linkedin  },
-  { href: "https://www.instagram.com/gobitsnbytes.kolkata", label: "Instagram", icon: Instagram },
+  { href: "https://www.instagram.com/bitsnbytes.lko",       label: "Instagram", icon: Instagram },
 ];
 
 export function Footer() {

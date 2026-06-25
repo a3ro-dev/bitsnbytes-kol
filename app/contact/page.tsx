@@ -14,15 +14,15 @@ const SOCIALS = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    handle: "Bits&Bytes Kolkata",
+    handle: "@gobitsnbytes",
     href: "https://www.linkedin.com/company/gobitsbytes",
     desc: "Professional updates and news",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    handle: "@gobitsnbytes.kolkata",
-    href: "https://www.instagram.com/gobitsnbytes.kolkata",
+    handle: "@bitsnbytes.lko",
+    href: "https://www.instagram.com/bitsnbytes.lko",
     desc: "Events, behind the scenes, community moments",
   },
 ];

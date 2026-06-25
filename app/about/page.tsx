@@ -314,6 +314,59 @@ export default function AboutPage() {
         <div className="h-px w-full bg-charcoal/10" />
       </div>
 
+      {/* Fork Guidelines */}
+      <section className="shell py-24 sm:py-32">
+        <FadeSection className="max-w-4xl">
+          <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true }}>
+            <span className="eyebrow">
+              <span className="w-1.5 h-1.5 rounded-full bg-terracotta" />
+              What is a Fork?
+            </span>
+            <h2
+              className="font-display text-charcoal mt-6 leading-[0.92] mb-8"
+              style={{ fontSize: "clamp(2rem, 4.5vw, 3.5rem)" }}
+            >
+              We&apos;re part of the bits&bytes™ Network
+            </h2>
+            <div className="grid sm:grid-cols-2 gap-8 mt-12">
+              <motion.div variants={fadeUp} className="space-y-3">
+                <h3 className="font-display text-terracotta text-xl">What We Can Do</h3>
+                <ul className="space-y-2 text-stone">
+                  <li>• Build local culture and community</li>
+                  <li>• Run events, workshops, and cohorts</li>
+                  <li>• Use the bits&bytes™ brand locally</li>
+                  <li>• Recruit contributors and maintainers</li>
+                  <li>• Adapt to Kolkata&apos;s student context</li>
+                </ul>
+              </motion.div>
+              <motion.div variants={fadeUp} className="space-y-3">
+                <h3 className="font-display text-terracotta text-xl">What We Cannot Do</h3>
+                <ul className="space-y-2 text-stone">
+                  <li>• Make financial commitments independently</li>
+                  <li>• Sign contracts or agreements</li>
+                  <li>• Collect money informally</li>
+                  <li>• Register as a separate organization</li>
+                  <li>• Claim ownership of the brand or identity</li>
+                </ul>
+              </motion.div>
+            </div>
+            <p className="text-stone mt-8 leading-relaxed">
+              Bits&Bytes Kolkata is recognized by <strong>GOBITSNBYTES FOUNDATION</strong> as a local operating unit of the bits&bytes™ Network. 
+              We operate under the Foundation&apos;s governance, safeguarding standards, and financial controls — ensuring safety, legal compliance, 
+              and brand integrity for all members.
+            </p>
+            <a
+              href="https://gobitsnbytes.org/fork"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-8 text-terracotta font-semibold hover:underline"
+            >
+              Read the complete Fork Guidelines →
+            </a>
+          </motion.div>
+        </FadeSection>
+      </section>
+
       {/* Dark CTA band */}
       <section className="bg-charcoal w-full">
         <div className="flex flex-col gap-[4px] w-full">

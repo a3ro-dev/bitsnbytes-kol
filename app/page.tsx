@@ -33,18 +33,18 @@ const FOCUS = [
 ];
 
 const STATS = [
-  { value: "1500+", num: 1500, suffix: "+", label: "Active Members",   sub: "across India"    },
-  { value: "130+",  num: 130,  suffix: "+", label: "Projects Shipped", sub: "from apps to AI" },
-  { value: "100+",  num: 100,  suffix: "+", label: "Partners",         sub: "and growing"     },
+  { value: "1400+", num: 1400, suffix: "+", label: "Active Members",   sub: "across India"    },
+  { value: "5",     num: 5,    suffix: "",  label: "Recognized Forks",  sub: "city-level & thematic" },
+  { value: "6+",    num: 6,    suffix: "+", label: "Events",           sub: "hackathons & workshops" },
 ];
 
 
 const VOICES = [
-  { quote: "Leading this community has shown me that there's no limit to what ambitious teens can achieve when they have the right ecosystem to build in.",   author: "Yash Singh",      role: "Co-Founder & Organisation Lead"        },
-  { quote: "We're crafting a brand that represents the future of Indian tech — bold, creative, and unapologetically teen-led.",                                author: "Aadrika Maurya",  role: "Co-Founder & Chief Creative Strategist" },
-  { quote: "The systems we're building here are the backbone that lets every member ship their wildest ideas with confidence.",                                 author: "Akshat Kushwaha", role: "Co-Founder & Technical Lead"            },
-  { quote: "Running the technical side of a 48-hour hackathon at 17 is not something most people get to do. Bits&Bytes gave me that shot.",                    author: "Aditya Bera",     role: "Technical Lead"                         },
-  { quote: "Telling our story isn't just about social media — it's about inspiring every teen in India to stop consuming and start building their own future.", author: "Maryam Fatima",   role: "Social Media & Promotions Head"         },
+  { quote: "Leading this community has shown me that there's no limit to what ambitious teens can achieve when they have the right ecosystem to build in.",   author: "Yash Singh",      role: "Chief Executive Officer"        },
+  { quote: "We're crafting a brand that represents the future of Indian tech — bold, creative, and unapologetically teen-led.",                                author: "Aadrika Maurya",  role: "Chief Creative Officer & COO" },
+  { quote: "The systems we're building here are the backbone that lets every member ship their wildest ideas with confidence.",                                 author: "Akshat Kushwaha", role: "Chief Technology Officer"            },
+  { quote: "bit&bytes exists to be a positive, creative space. Every decision we make protects that.",                    author: "Safeguarding Team",     role: "Community Safety & Wellbeing"                         },
+  { quote: "Telling our story isn't just about social media — it's about inspiring every teen in India to stop consuming and start building their own future.", author: "Maryam Fatima",   role: "Head of Brand & Media"         },
 ];
 
 // ─── Hero atmosphere config ───────────────────────────────────────────────────
