@@ -1,5 +1,11 @@
-import { redirect } from "next/navigation";
+'use client';
+
+import { useEffect } from 'react';
 
 export default function Terms() {
-  redirect("https://gobitsnbytes.org/terms");
+  useEffect(() => {
+    window.location.href = 'https://gobitsnbytes.org/terms';
+  }, []);
+
+  return null;
 }

@@ -1,5 +1,11 @@
-import { redirect } from "next/navigation";
+'use client';
+
+import { useEffect } from 'react';
 
 export default function FAQ() {
-  redirect("https://gobitsnbytes.org/faq");
+  useEffect(() => {
+    window.location.href = 'https://gobitsnbytes.org/faq';
+  }, []);
+
+  return null;
 }
