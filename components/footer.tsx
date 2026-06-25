@@ -110,21 +110,21 @@ export function Footer() {
             © 2026 Bits&Bytes Kolkata · gobitsnbytes.org
           </p>
           <div className="flex flex-wrap items-center gap-3 sm:gap-5 text-xs">
-            <Link href="/faq" className="text-stone/28 hover:text-stone/60 transition-colors">
+            <a href="https://gobitsnbytes.org/faq" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               FAQ
-            </Link>
+            </a>
             <Link href="/coc" className="text-stone/28 hover:text-stone/60 transition-colors">
               Code of Conduct
             </Link>
-            <Link href="/terms" className="text-stone/28 hover:text-stone/60 transition-colors">
+            <a href="https://gobitsnbytes.org/terms" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               Terms
-            </Link>
-            <Link href="/privacy" className="text-stone/28 hover:text-stone/60 transition-colors">
+            </a>
+            <a href="https://gobitsnbytes.org/privacy" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               Privacy
-            </Link>
-            <Link href="/ip" className="text-stone/28 hover:text-stone/60 transition-colors">
+            </a>
+            <a href="https://gobitsnbytes.org/ip" target="_blank" rel="noopener noreferrer" className="text-stone/28 hover:text-stone/60 transition-colors">
               IP Policy
-            </Link>
+            </a>
             <a
               href="https://github.com/gobitsnbytes-kol"
               target="_blank"
